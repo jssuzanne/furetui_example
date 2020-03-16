@@ -12,7 +12,25 @@ A short description of the Anyblok based project
 Features
 --------
 
-* TODO
+Initialize project::
+
+   python3 -m venv venv
+   source venv/bin.activate
+
+   make setup-dev
+
+First terminal::
+
+   make run-dev
+
+Second terminal::
+
+   make run-dev-npm
+
+Navigator::
+
+   localhost:8080
+   # login / password = admin / admin
 
 Author
 ------
