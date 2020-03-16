@@ -1,0 +1,16 @@
+
+git+https://github.com/AnyBlok/AnyBlok.git#egg=anyblok
+git+https://github.com/AnyBlok/Anyblok_Pyramid.git#egg=anyblok_pyramid
+git+https://github.com/AnyBlok/anyblok-pyramid-rest-api.git#egg=anyblok_pyramid_rest_api
+anyblok_io
+colour 
+passlib 
+furl 
+phonenumbers 
+pycountry
+cryptography
+pygments==2.0.2
+git+https://github.com/AnyBlok/anyblok_furetui.git@refactor#egg=anyblok_furetui
+
+
+.

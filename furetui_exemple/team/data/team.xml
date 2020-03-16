@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+  <record external_id="team_js">
+    <field name="first_name">Jean-Sébastien</field>
+    <field name="last_name">Suzanne</field>
+    <field name="active">True</field>
+  </record>
+  <record external_id="team_pierre">
+    <field name="first_name">Pierre</field>
+    <field name="last_name">Verkest</field>
+    <field name="active">True</field>
+  </record>
+  <record external_id="team_georges">
+    <field name="first_name">Georges</field>
+    <field name="last_name">Racinet</field>
+    <field name="active">True</field>
+  </record>
+  <record external_id="team_simon">
+    <field name="first_name">Simon</field>
+    <field name="last_name">André</field>
+    <field name="active">False</field>
+  </record>
+</records>

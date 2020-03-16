@@ -1,0 +1,27 @@
+syntax: glob
+
+dist
+build
+doc/_build
+
+furetui_exemple.session/
+
+.installed.cfg
+*.egg-info
+*.swp
+*.pyc
+*.pyo
+*\#
+*.\#*
+*~
+*.orig
+
+parts/
+bin/
+etc/
+develop-eggs/
+venv
+node_modules
+
+gmon.out
+.idea

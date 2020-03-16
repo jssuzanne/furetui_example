@@ -1,0 +1,39 @@
+<templates>
+  <template id="TeamsList">
+    <field name="first_name" sortable />
+    <field name="last_name" sortable />
+    <field 
+      name="active" 
+      widget="Selection"
+      selections="{False: 'Unactive', True: 'Active'}"
+      colors="{False: 'is-danger', True: 'is-success'}"
+    />
+  </template>
+  <template id="TeamForm">
+    <header>
+      <div class="columns">
+        <div class="column is-four-fifths content">
+          <h1 class="is-large">Member: {{ data.first_name }} {{ (data.last_name || '').toUpperCase() }}</h1>
+        </div>
+        <div class="column">
+          <field name="active" label="Status" widget="StatusBar"
+            selections="{'': 'Unactive', 1: 'Active'}"
+          />
+        </div>
+      </div>
+    </header>
+    <div class="columns">
+      <div class="column">
+        <field name="first_name" />
+      </div>
+      <div class="column">
+        <field name="last_name" />
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <field name="active" />
+      </div>
+    </div>
+  </template>
+</templates>

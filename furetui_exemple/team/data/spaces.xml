@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+  <record external_id="space_team">
+    <field name="code">team</field>
+    <field name="order">10</field>
+    <field name="label">Teams</field>
+    <field name="description">All informations about AnyBlok Teams</field>
+    <field name="icon_code">users-cog</field>
+  </record>
+</records>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+  <record external_id="resource_teams" model="Model.FuretUI.Resource.Set">
+    <field name="list" external_id="resource_teams_list" model="Model.FuretUI.Resource.List">
+      <field name="model">Model.Team</field>
+      <field name="title">Teams</field>
+      <field name="template">TeamsList</field>
+      <field name="filters">
+        <record external_id="resource_filter_team_first_name">
+          <field name="key">first_name</field>
+          <field name="label">First name</field>
+        </record>
+        <record external_id="resource_filter_team_last_name">
+          <field name="key">last_name</field>
+          <field name="label">Last name</field>
+        </record>
+      </field>
+      <field name="tags">
+        <record external_id="resource_tag_team_active">
+          <field name="key">active</field>
+          <field name="label">Is Active</field>
+        </record>
+      </field>
+    </field>
+    <field name="form" external_id="resource_team_form" model="Model.FuretUI.Resource.Form">
+      <field name="model">Model.Team</field>
+      <field name="template">TeamForm</field>
+    </field>
+  </record>
+</records>
